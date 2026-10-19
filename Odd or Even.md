@@ -21,9 +21,31 @@ false
 - **Expected Time Complexity:** O(1)
 - **Expected Auxiliary Space Complexity:** O(1)
 
-### Accepted Solutions (1)
+### Accepted Solutions (2)
 
 #### Solution 1 (C++)
+
+- **Submitted:** 2026-10-19 11:22:25
+- **Status:** Correct
+- **Marks:** 0
+
+```cpp
+class Solution {
+  public:
+    bool isEven(int n) {
+    if (n%2==0){
+        return true;
+        
+    }
+    else{
+        return false;
+    }
+        
+    }
+};
+```
+
+#### Solution 2 (C++)
 
 - **Submitted:** 2026-10-19 11:20:32
 - **Status:** Correct
@@ -39,4 +61,4 @@ class Solution {
 };
 ```
 
-*Generated on: 10/19/2026, 11:21:04 AM*
+*Generated on: 10/19/2026, 11:22:56 AM*
