@@ -33,15 +33,32 @@ arr[] = [1, 3, 3]
 - **Expected Time Complexity:** O(n)
 - **Expected Auxiliary Space Complexity:** O(1)
 
-### Accepted Solutions (1)
+### Accepted Solutions (2)
 
-#### Solution 1 (C++)
+#### Solution 1 (C)
+
+- **Submitted:** 2026-10-26 14:15:42
+- **Status:** Correct
+- **Marks:** 0
+
+```c
+int arraySum(int arr[], int size) {
+    int sum=0;
+    for(int i=0; i<size;i++){
+        sum=sum+arr[i
+        ];
+    }
+    return sum;
+}
+```
+
+#### Solution 2 (C)
 
 - **Submitted:** 2026-10-26 14:03:25
 - **Status:** Correct
 - **Marks:** 1
 
-```cpp
+```c
 class Solution {
   public:
     int arraySum(vector<int>& arr) {
@@ -55,4 +72,4 @@ class Solution {
 };
 ```
 
-*Generated on: 10/26/2026, 2:04:13 PM*
+*Generated on: 10/26/2026, 2:17:19 PM*
